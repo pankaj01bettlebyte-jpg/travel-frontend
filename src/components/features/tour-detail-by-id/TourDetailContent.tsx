@@ -1,9 +1,10 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
+
 import type { DataType } from "@/data/ListingData";
 import EnquirySidebar from "./EnquirySidebar";
+import Image from "next/image";
+import Link from "next/link";
 
 const TourDetailContent = ({ tour }: { tour: DataType }) => {
   const [openDay, setOpenDay] = useState<number>(0);
